@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="dark:bg-charcoal">
+      <!-- Navbar -->
+      <header class="w-full fixed z-20">
+        <div
+          class="p-6 flex justify-between items-center backdrop-blur-md mx-auto md:px-9 lg:px-16"
+        >
+          <h1
+            class="font-inter text-lg text-darkGrey dark:text-light font-semibold"
+          >
+            ILORI ELIJAH
+          </h1>
+
+          <div class="flex items-center space-x-4 hidden md:flex">
+            <h1 class="font-inter text-darkGrey dark:text-light font-semibold">
+              LET'S CONNECT
+            </h1>
+
+            <a
+              href="mailto:ilorielijah@gmail.com"
+              class="px-6 py-3 text-base rounded-full bg-light shadow-md dark:bg-light font-inter"
+              >Ilorielijah899@gmail.com
+              <i class="fa-regular fa-copy text-darkGrey ps-1"></i
+            ></a>
+          </div>
+        </div>
+
+        <button
+          id="menu-btn"
+          class="block hamburger focus:outline-none absolute top-8 right-6 flex flex-col gap-1 z-20 md:hidden"
+        >
+          <span class="hamburger-top block bg-dark dark:bg-white w-4 h-0.5"></span>
+          <span class="hamburger-bottom block bg-dark dark:bg-white w-4 h-0.5"></span>
+        </button>
+
+        <div
+          class="nav-dropdown h-screen backdrop-blur-md flex flex-col items-center absolute top-0 left-0 right-0 pt-48 opacity-0 pointer-events-none transition-opacity duration-300"
+        >
+          <h1
+            class="absolute top-7 left-6 font-inter text-lg text-darkGrey dark:text-light font-semibold"
+          >
+            ILORI ELIJAH
+          </h1>
+          <div
+            id="dropdownContent"
+            class="flex flex-col items-center space-y-4 border-t border-darkGreyDark opacity-0 -translate-y-60 transition-all duration-500"
+          >
+            <h1
+              class="font-inter text-darkGrey dark:text-light font-semibold mt-4"
+            >
+              LET'S CONNECT
+            </h1>
+            <a
+              href="mailto:ilorielijah@gmail.com"
+              class="px-6 py-3 text-base rounded-full bg-light shadow-md dark:bg-light font-inter"
+            >
+              Ilorielijah899@gmail.com
+              <i class="fa-regular fa-copy text-darkGrey ps-1"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="">
+        <div class="text-center pt-36">
+          <h1
+            class="font-inter font-semibold uppercase text-lightGreyDark dark:text-lightGrey/70 text-4xl tracking-tighter md:text-6xl lg:text-8xl md:tracking-normal"
+          >
+            <div class="-mb-2">Front-end</div>
+            <div class="">Developer©</div>
+          </h1>
+          <div class="w-1/2 mx-auto">
+            <!-- <img src="img/Elidawg.PNG" class="mt-6 rounded-3xl mx-auto object-cover w-60 md:w-96 lg:w-1/2 lg:mt-16" alt="" /> -->
+
+            <img
+              src="img/avater_img.png"
+              class="mt-6 rounded-3xl mx-auto bg-darkGrey/80 dark:bg-lightGrey/70 border-rounded object-cover w-60 md:w-96 lg:w-1/2"
+              alt=""
+            />
+          </div>
+          <div class="font-medium mt-20">
+            <p
+              class="text-darkGrey dark:text-lightGrey/80 mx-auto text-3xl px-4 md:text-4xl md:w-3/4 lg:w-1/2"
+            >
+              I enjoy designing smart, impactful solutions that make life easier
+              through code.
+            </p>
+
+            <p
+              class="text-darkGrey dark:text-lightGrey/80 mt-20 mx-auto text-3xl px-4 md:text-4xl md:w-3/4 lg:w-1/2"
+            >
+              I transform vision into polished digital experiences with
+              precision, purpose, and modern technology.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Works Section -->
+      <section>
+        <div class="px-6 pt-72 pb-24">
+          <h2
+            class="text-5xl font-semibold font-inter text-darkGrey text-center uppercase dark:text-light md:w-1/2"
+          >
+            work section
+          </h2>
+          <div class="grid gap-8 lg:grid-cols-3 mt-8">
+            <!-- Project Card -->
+            <div class="group workCard">
+              <!-- Project Image -->
+              <div class="relative overflow-hidden">
+                <img
+                  src="img/verveDent.png"
+                  alt="VerveDent"
+                  class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div class="cardOverlay"></div>
+                <!-- Action buttons overlay -->
+                <div class="workBtnOverlay">
+                  <div class="flex gap-3">
+                    <a href="#" class="workBtn">
+                      <svg
+                        class="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        />
+                      </svg>
+                      Live
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Project Info -->
+              <div class="p-6">
+                <h3 class="workCardHeading">VerveDent</h3>
+                <p class="mb-4 text-sm text-cardBodyGrey leading-relaxed">
+                  A sleek, modern template crafted for dental clinics that value
+                  both professionalism and innovation. It combines intuitive
+                  design with striking visuals for a seamless user experience.
+                </p>
+                <!-- Technologies -->
+                <div class="flex flex-wrap gap-2">
+                  <span class="workLanguage"> TailwindCss </span>
+                  <span class="workLanguage"> JavaScript </span>
+                </div>
+              </div>
+            </div>
+            <!-- NaijaAI -->
+            <div class="group workCard">
+              <div class="relative overflow-hidden">
+                <img
+                  src="img/naijaAI.png"
+                  alt="NaijaAI"
+                  class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div class="cardOverlay"></div>
+                <div class="workBtnOverlay">
+                  <div>
+                    <a href="#" class="workBtn">
+                      <svg
+                        class="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        />
+                      </svg>
+                      Live
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="workCardHeading">NaijaAI</h3>
+                <p class="mb-4 text-sm text-cardBodyGrey leading-relaxed">
+                  A beautifully crafted Framer website template perfect for AI
+                  SaaS businesses looking to showcase their innovative products
+                  and services.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="workLanguage"> Bootstap </span>
+                  <span class="workLanguage"> css </span>
+                  <span class="workLanguage"> JavaScript </span>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Coding strategies Section  -->
+      <section>
+        <div class="px-6 pb-36">
+          <h2
+            class="text-3xl font-semibold font-inter text-darkGrey mb-14 dark:text-light md:text-4xl md:w-1/2"
+          >
+            My proven and consistent coding techniques
+          </h2>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div class="group card">
+              <h3 class="card-heading">① User-Centered Design</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Creating intuitive interfaces with a focus on user experience,
+                accessibility, and responsive design principles that work across
+                all devices and platforms.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">② Responsive Design</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Building flexible layouts that adapt seamlessly to any screen
+                size, ensuring optimal user experience across desktop, tablet,
+                and mobile devices.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">③ Component-Based Architecture</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Developing scalable and maintainable applications using modular
+                component systems, promoting code reusability and efficient
+                development workflows.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">④ Performance Optimization</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Implementing advanced optimization techniques including code
+                splitting, lazy loading, and efficient state management to
+                ensure fast loading times.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">⑤ Universal Browser Support</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Ensuring consistent functionality and appearance across all
+                modern browsers through thorough testing and progressive
+                enhancement strategies.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">⑥ Version Control and Collaboration</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Utilizing Git workflows, code reviews, and collaborative
+                development practices to maintain code quality and team
+                productivity.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">⑦ Tech Evolution Awareness</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Continuously learning new technologies and best practices to
+                deliver cutting-edge solutions that meet evolving industry
+                standards.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">⑧ Maintainable Code Practices</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Following industry standards for clean code, testing,
+                documentation, and maintainable architecture patterns.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+
+            <div class="group card">
+              <h3 class="card-heading">⑨ Collaboration and Communication</h3>
+              <p class="font-inter text-cardBodyGrey">
+                Working effectively with cross-functional teams, translating
+                technical concepts for stakeholders, and participating in agile
+                development processes.
+              </p>
+              <div
+                class="card-line group-hover:w-full transition-all duration-500"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="bg-dark py-10">
+      <div class="px-6">
+        <p class="text-light text-[28px] font-medium mb-10">
+          Think I could be a strong addition to your project? Let’s connect.
+        </p>
+        <a
+          href="mailto:ilorielijah@gmail.com"
+          class="px-6 py-3 text-base rounded-full bg-light shadow-md dark:bg-light font-inter"
+          >Ilorielijah899@gmail.com
+          <i class="fa-regular fa-copy text-darkGrey ps-1"></i
+        ></a>
+
+        <div class="flex gap-4 mt-10">
+          <a
+            href="https://www.linkedin.com/in/elijah-ilori-5a3972335/"
+            target="_blank"
+            class="mx-2 text-light flex items-center font-medium gap-2"
+          >
+            <i class="fab fa-linkedin text-xl"></i>
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            class="mx-2 text-light flex items-center font-medium gap-2"
+          >
+            <i class="fab fa-github text-xl"></i>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <button id="themeToggleBtn" class="p-2 rounded fixed right-4 bottom-6 z-50">
+      <i class="fa-solid text-darkGrey fa-moon text-2xl dark:hidden"></i>
+      <i class="fa-regular fa-sun text-light text-2xl hidden dark:inline"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

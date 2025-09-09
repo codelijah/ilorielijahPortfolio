@@ -32,15 +32,11 @@
 
   /* Coding Techniques section  */
   .card {
-    @apply p-6 rounded-lg dark:bg-cardBgGrey border shadow-md dark:border-borderGrey transition-all duration-500 hover:-translate-y-1 animate-fade-in;
+    @apply p-6 rounded-xl dark:bg-cardBgGrey border shadow-md dark:border-borderGrey transition-all duration-500 hover:-translate-y-1 animate-fade-in;
   }
 
   .card-heading {
-    @apply text-3xl font-semibold font-inter text-darkGrey dark:text-cardHeadingGrey mb-3 dark:group-hover:text-lightGrey/80;
-  }
-
-  .card-line {
-    @apply mt-4 h-1 w-0 bg-gradient-to-r from-gray-600 to-gray-400 w-1/6 transition-all duration-500 group-hover:w-full;
+    @apply text-2xl font-semibold font-inter text-darkGrey dark:text-cardHeadingGrey mb-3;
   }
 
   .hamburger-top,

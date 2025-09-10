@@ -39,7 +39,7 @@
 
   /* Work Section */
   .workCard {
-    @apply rounded-lg overflow-hidden dark:bg-charcoal shadow-md dark:border border-languageBorder transition-all duration-500 animate-fade-in hover:shadow-2xl hover:-translate-y-2;
+    @apply rounded-lg overflow-hidden shadow-md dark:bg-charcoal dark:border dark:border-languageBorder hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 animate-fade-in;
   }
 
   .workCardHeading {
@@ -64,11 +64,11 @@
 
   /* Coding Techniques section  */
   .card {
-    @apply p-6 rounded-xl dark:bg-charcoal border shadow-md dark:border-borderGrey transition-all duration-500 hover:-translate-y-1 animate-fade-in shadow-2xl;
+    @apply p-6 rounded-xl hover:-translate-y-1 transition-all duration-500 animate-fade-in dark:bg-charcoal border dark:border-borderGrey shadow-md dark:shadow-xl;
   }
 
   .card-heading {
-    @apply text-2xl font-semibold font-inter text-darkGrey dark:text-cardHeadingGrey mb-3;
+    @apply mb-3 text-2xl font-semibold font-inter text-darkGrey dark:text-cardHeadingGrey;
   }
 
   .hamburger-top,

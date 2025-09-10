@@ -1274,11 +1274,6 @@ video {
   transition-duration: 700ms;
 }
 
-/* body {
-  overflow-x: hidden;
-  background-color: #000;
-} */
-
 html {
   scroll-behavior: smooth;
 }

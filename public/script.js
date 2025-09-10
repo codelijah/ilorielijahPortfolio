@@ -4,6 +4,7 @@ const menuBtn = document.getElementById('menu-btn');
 const navDropDown = document.querySelector('.nav-dropdown');
 const dropdownContent = document.getElementById('dropdownContent');
 const nameDropdown = document.getElementById('namedropdown');
+const stylishNameDropdown = document.getElementById('stylishName');
 
 themeToggleBtn.addEventListener('click', () => {
   html.classList.toggle('dark');
@@ -33,8 +34,12 @@ menuBtn.addEventListener('click', function () {
   dropdownContent.classList.toggle('opacity-100');
   dropdownContent.classList.toggle('-translate-y-60');
   dropdownContent.classList.toggle('translate-y-0');
-  nameDropdown.classList.toggle('opacity-0')
-  nameDropdown.classList.toggle('opacity-100')
-  nameDropdown.classList.toggle('-translate-y-40')
-  nameDropdown.classList.toggle('-translate-y-0')
+  nameDropdown.classList.toggle('opacity-0');
+  nameDropdown.classList.toggle('opacity-100');
+  nameDropdown.classList.toggle('-translate-y-40');
+  nameDropdown.classList.toggle('-translate-y-0');
+  stylishNameDropdown.classList.toggle('opacity-0');
+  stylishNameDropdown.classList.toggle('opacity-100');
+  stylishNameDropdown.classList.toggle('-translate-y-72');
+  stylishNameDropdown.classList.toggle('-translate-y-0');
 });

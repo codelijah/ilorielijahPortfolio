@@ -4,10 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   overflow-x: hidden;
-  background-color: #000; /* match overlay */
-}
+  background-color: #000;
+} */
 
 html {
   scroll-behavior: smooth;

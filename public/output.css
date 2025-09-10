@@ -1274,11 +1274,10 @@ video {
   transition-duration: 700ms;
 }
 
-body {
+/* body {
   overflow-x: hidden;
   background-color: #000;
-  /* match overlay */
-}
+} */
 
 html {
   scroll-behavior: smooth;

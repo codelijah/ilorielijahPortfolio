@@ -853,6 +853,11 @@ video {
   margin-right: auto;
 }
 
+.my-14{
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
 .-mb-2{
   margin-bottom: -0.5rem;
 }
@@ -1163,6 +1168,16 @@ video {
   padding-bottom: 3rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .pb-24{
   padding-bottom: 6rem;
 }
@@ -1185,6 +1200,14 @@ video {
 
 .pt-12{
   padding-top: 3rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
+}
+
+.pb-32{
+  padding-bottom: 8rem;
 }
 
 .text-center{

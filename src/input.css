@@ -6,18 +6,13 @@
 
 @layer components {
   /* Video Background */
-  html,
-  body {
-    overscroll-behavior-y: contain;
-  }
-
   .video-background {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -2;
     overflow: hidden;
   }
 
@@ -40,11 +35,12 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
+    /* z-index: -1; */
   }
 
   /* Work Section */
   .workCard {
-    @apply rounded-lg overflow-hidden shadow-md dark:bg-charcoal dark:border dark:border-languageBorder hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 animate-fade-in;
+    @apply rounded-lg overflow-hidden shadow-md dark:bg-charcoal dark:border dark:border-borderGrey hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 animate-fade-in;
   }
 
   .workCardHeading {

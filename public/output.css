@@ -558,18 +558,13 @@ video {
 
 /* Video Background */
 
-html,
-  body {
-  overscroll-behavior-y: contain;
-}
-
 .video-background {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
   overflow: hidden;
 }
 
@@ -593,6 +588,7 @@ html,
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+  /* z-index: -1; */
 }
 
 /* Work Section */
@@ -632,7 +628,7 @@ html,
 .workCard:is(.dark *){
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: hsl(0 0% 20% / var(--tw-border-opacity, 1));
+  border-color: rgb(34 34 34 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
   background-color: rgb(26 26 26 / var(--tw-bg-opacity, 1));
 }

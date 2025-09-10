@@ -6,6 +6,11 @@
 
 @layer components {
   /* Video Background */
+  html,
+  body {
+    overscroll-behavior-y: contain;
+  }
+
   .video-background {
     position: fixed;
     top: 0;

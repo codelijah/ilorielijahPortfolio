@@ -558,6 +558,11 @@ video {
 
 /* Video Background */
 
+html,
+  body {
+  overscroll-behavior-y: contain;
+}
+
 .video-background {
   position: fixed;
   top: 0;
@@ -944,10 +949,6 @@ video {
 
 .w-80{
   width: 20rem;
-}
-
-.w-\[1500px\]{
-  width: 1500px;
 }
 
 .w-full{

@@ -38,6 +38,7 @@ module.exports = {
         languageBg: 'hsl(220, 13%, 15%)',
         languageBorder: 'hsl(0, 0%, 20%)',
         languageHover: '#a0a0a0',
+        bgOverlay: 'rgba(0, 0, 0, 0.7)',
       },
     },
   },

@@ -26,21 +26,13 @@ html.classList.add('dark');
 
 menuBtn.addEventListener('click', function () {
   navDropDown.classList.toggle('opacity-0');
-  navDropDown.classList.toggle('opacity-100');
   navDropDown.classList.toggle('pointer-events-none');
-  navDropDown.classList.toggle('pointer-events-auto');
   menuBtn.classList.toggle('active');
   document.body.classList.toggle('overflow-y-hidden');
   dropdownContent.classList.toggle('opacity-0');
-  dropdownContent.classList.toggle('opacity-100');
   dropdownContent.classList.toggle('-translate-y-60');
-  dropdownContent.classList.toggle('translate-y-0');
   nameDropdown.classList.toggle('opacity-0');
-  nameDropdown.classList.toggle('opacity-100');
   nameDropdown.classList.toggle('-translate-y-40');
-  nameDropdown.classList.toggle('-translate-y-0');
   stylishNameDropdown.classList.toggle('opacity-0');
-  stylishNameDropdown.classList.toggle('opacity-100');
   stylishNameDropdown.classList.toggle('-translate-y-72');
-  stylishNameDropdown.classList.toggle('-translate-y-0');
 });

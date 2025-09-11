@@ -30,6 +30,7 @@ menuBtn.addEventListener('click', function () {
   navDropDown.classList.toggle('pointer-events-none');
   navDropDown.classList.toggle('pointer-events-auto');
   menuBtn.classList.toggle('active');
+  document.body.classList.toggle('overflow-y-hidden');
   dropdownContent.classList.toggle('opacity-0');
   dropdownContent.classList.toggle('opacity-100');
   dropdownContent.classList.toggle('-translate-y-60');

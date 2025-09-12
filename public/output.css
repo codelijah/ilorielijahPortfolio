@@ -913,12 +913,12 @@ video {
   height: auto;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .h-dvh{
   height: 100dvh;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .min-h-full{
@@ -1301,6 +1301,12 @@ video {
 
 .duration-700{
   transition-duration: 700ms;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .focus\:outline-none:focus{

@@ -7,8 +7,6 @@ module.exports = {
       sm: '390px',
       md: '768px',
       lg: '1024px',
-      // xl: "1440px",
-      // "2xl": "1920px",
     },
     extend: {
       fontFamily: {
@@ -23,8 +21,8 @@ module.exports = {
       animation: {
         'fade-in': 'fade-in 0.6s ease-out',
       },
-
       colors: {
+        primaryBg: '#0D0D0D',
         charcoal: 'rgb(26,26,26)',
         lightGrey: 'rgb(229, 231, 235)',
         lightGreyDark: 'rgb(121, 123, 127)',

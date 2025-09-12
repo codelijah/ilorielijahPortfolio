@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-inter bg-light dark:bg-primaryBg overflow-x-hidden;
+  }
+}
+
 @layer components {
   /* Work Section */
   .workCard {

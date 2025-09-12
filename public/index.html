@@ -14,7 +14,7 @@
   <body>
     <!-- Video background -->
     <div
-      class="fixed inset-0 w-full h-screen -z-10 overflow-hidden hidden dark:block"
+      class="fixed inset-0 w-full min-h-screen h-dvh -z-10 overflow-hidden hidden dark:block"
       aria-hidden="true"
     >
       <video
@@ -22,7 +22,7 @@
         muted
         loop
         playsinline
-        poster="img/background.jpg"
+        poster="img/backgroundimg.png"
         class="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto -translate-x-1/2 -translate-y-1/2 object-cover"
       >
         <source src="img/background.mp4" type="video/mp4" />
@@ -146,14 +146,14 @@
     </section>
 
     <!-- My Works Section -->
-    <section class="px-6 mt-36 md:px-0">
-      <h2
-        class="px-6 text-4xl font-semibold font-inter text-darkGrey text-center dark:text-light md:text-5xl"
-      >
-        Here's What I've Been Up To.
-      </h2>
-      <div class="mt-10 dark:bg-charcoal">
-        <div class="grid gap-8 lg:grid-cols-3 px-6 py-8 md:px-14">
+    <section class="">
+      <div class="px-6 pt-10 pb-24 my-28">
+        <h2
+          class="text-[33px] font-semibold font-inter text-darkGrey text-center dark:text-light md:text-4xl"
+        >
+          Here's What I've Been Up To.
+        </h2>
+        <div class="grid gap-8 lg:grid-cols-3 mt-8">
           <!-- Project Card -->
           <div class="group workCard">
             <!-- Project Image -->
@@ -260,9 +260,9 @@
 
     <!-- Coding strategies Section  -->
     <section class="dark:bg-charcoal border-b dark:border-0">
-      <div class="px-6 pb-32 mt-28 md:w-[80%] md:mx-auto">
+      <div class="px-6 pb-32 md:w-[80%] md:mx-auto">
         <h2
-          class="text-4xl font-semibold font-inter text-darkGrey py-14 dark:text-light md:text-5xl"
+          class="text-[33px] font-semibold font-inter text-darkGrey py-14 dark:text-light md:text-4xl"
         >
           What I Bring to Every Project
         </h2>

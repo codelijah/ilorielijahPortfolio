@@ -56,3 +56,12 @@ menuBtn.addEventListener('click', function () {
     document.body.style.overflow = 'hidden';
   }
 });
+
+gsap.to(themeToggleBtn, {
+  y: 17,
+  repeat: -1,
+  yoyo: true,
+  duration: 1.2,
+  delay: 2,
+  ease: "sine.inOut"
+});

@@ -1126,16 +1126,12 @@ body:is(.dark *){
      object-fit: cover;
 }
 
-.p-2{
-  padding: 0.5rem;
+.p-1{
+  padding: 0.25rem;
 }
 
 .p-6{
   padding: 1.5rem;
-}
-
-.p-1{
-  padding: 0.25rem;
 }
 
 .px-4{
